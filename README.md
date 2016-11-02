@@ -1,7 +1,7 @@
 #热点认证技术实现
 
 ##背景
-&emsp;&emsp;&emsp;当用户靠近路由器时候，打开App时候，会自动连接上菜鸟驿站提供的网络，当用户离开路由器的时候，或者关闭app之后会断开相关的网络连接。
+&emsp;&emsp;&emsp;当用户靠近路由器时候，打开App时候，会自动连接上金猪酒店提供的网络，当用户离开路由器的时候，或者关闭app之后会断开相关的网络连接。
 
 ##方案一：
 
@@ -135,7 +135,7 @@
 
 3.android的实现具体流程：
    
-   3.1 android 检测到驿站SSId 
+   3.1 android 检测到酒店SSId 
 
    3.2通过地址或者bssid从服务端获得相关密码
 
@@ -325,7 +325,7 @@ class login():
         return """
               <html lang="utf-8">
             <head>
-            <title>菜鸟驿站de</title>
+            <title>金猪酒店de</title>
             <meta charset="utf-8"/>
 
                 <script>
